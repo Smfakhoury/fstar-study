@@ -24,6 +24,5 @@
       //"make": "bash -i .devcontainer/onUpdate.sh"
     },
     // These run only when the container is assigned to a user
-    "postCreateCommand": {
-    }
+    "postCreateCommand": "bash -i .devcontainer/setup.sh"
   }
