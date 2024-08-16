@@ -28,5 +28,5 @@ WORKDIR $HOME
 RUN mkdir -p $HOME/bin
 
 # Make sure ~/bin is in the PATH
-RUN echo 'export PATH=$HOME/bin:$PATH' | tee --append $HOME/.profile $HOME/.bashrc $HOME/.bash_profile
+RUN echo 'export PATH=/workspaces/fstar-study/fstar/bin:$HOME/bin:$PATH' | tee --append $HOME/.profile $HOME/.bashrc $HOME/.bash_profile
 
