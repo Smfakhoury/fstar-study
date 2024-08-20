@@ -23,6 +23,7 @@
     "updateContentCommand": {
       //"make": "bash -i .devcontainer/onUpdate.sh"
     },
+    "postAttachCommand": "code --install-extension fstar-vscode-assistant-0.0.0.vsix",
     // These run only when the container is assigned to a user
     "postCreateCommand": "bash -i .devcontainer/setup.sh"
   }
