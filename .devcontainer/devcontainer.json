@@ -6,7 +6,7 @@
     "customizations": {
       "vscode": {
         "extensions": [
-          //"FStarLang.fstar-vscode-assistant"
+          "tomoki1207.pdf"
         ]
       }
     },
